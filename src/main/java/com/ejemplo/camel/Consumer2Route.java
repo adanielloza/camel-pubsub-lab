@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 public class Consumer2Route extends RouteBuilder {
     @Override
     public void configure() {
-        from("rabbitmq://localhost/alert-exchange"
+        from("rabbitmq:localhost/alert-exchange"
             + "?queue=email.consumer.queue"
             + "&exchangeType=fanout"
             + "&autoDelete=false"
