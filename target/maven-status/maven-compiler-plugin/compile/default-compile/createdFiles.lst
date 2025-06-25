@@ -1,0 +1,4 @@
+com/ejemplo/camel/App.class
+com/ejemplo/camel/Consumer2Route.class
+com/ejemplo/camel/Consumer1Route.class
+com/ejemplo/camel/PublisherRoute.class
